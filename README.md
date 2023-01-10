@@ -13,7 +13,7 @@ The file «AutoMethods» contains the methods used in the autonomous period (e.
 The «Detector» file contains code to determine the side of the signal sleeve (for further parking at the end of the autonomous period). Since the sides of our signal sleeve are blue, yellow and bands of yellow and blue, the «Detector» filters the content of yellow in a certain area of the camera image, and based on its quantity decides which side the signal sleeve is now installed to the robot).
 ## How to use it
 ### Installation
-Download the repository and move it to your «Teamcode» folder (unzip the folders and delete the file «readme.md»).
+Download the repository and move it to your «Teamcode» folder (unpack the folders, removing the «README» and «LICENSE» files).
 ### Run
 Enter this at the command line of your IDE:
 ```
